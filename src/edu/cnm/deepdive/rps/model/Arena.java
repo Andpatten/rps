@@ -56,6 +56,10 @@ public class Arena {
     return safeCopy;
   }
 
+  public byte getNumBreeds() {
+    return numBreeds;
+  }
+
   private int wrap(int value) {
 
     value %= arenaSize;
